@@ -7,7 +7,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .sidebar {
@@ -25,7 +25,20 @@
 }
 
 
-/* || Add background color to view elements clearly for layout */
+.main {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 15px;
+}
+
+/* || Style to clearly see element, do not forget to remove later */
+.main > :nth-child(1) {
+    background-color: blue;
+}
+.main > :nth-child(2) {
+    background-color: pink;
+}
+
 .sidebar {
     background-color: aqua;
 }
