@@ -53,3 +53,18 @@ body {
 .main {
     background-color: rgb(81, 123, 160);
 }
+.heading img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+li {
+    margin-bottom: 20px;
+}
+li img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
