@@ -17,11 +17,13 @@ body {
     grid-column: 1 / 2;
     grid-row: span 2;
     padding-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 6fr;
 }
 .sidebar ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 30px;
 }
 .controls {
     display: grid;
