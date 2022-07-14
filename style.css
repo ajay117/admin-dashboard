@@ -22,6 +22,17 @@ li {
 .white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
+.margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: blue;
+} 
 
 /* Sidebar section */
 .heading img {
@@ -88,6 +99,18 @@ li img {
 }
 .controls p {
     margin: 0;
+}
+input[type="search"] {
+    border-style: none;
+}
+.controls button {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.narrow-grid {
+    grid-template-columns: 50px 50px auto;;
+    justify-content: center;
 }
 
 
