@@ -24,7 +24,13 @@ body {
 .sidebar ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
+/* .sidebar img {
+    margin-right: 25px;
+} */
 .controls {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -37,6 +43,31 @@ body {
     gap: 15px;
     padding: 15px;
 }
+
+.heading img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+li {
+    margin-bottom: 20px;
+}
+li img {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.icon {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+
 
 /* || Style to clearly see element, do not forget to remove later */
 .main > :nth-child(1) {
@@ -54,19 +85,4 @@ body {
 }
 .main {
     background-color: rgb(81, 123, 160);
-}
-.heading img {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-    margin-right: 15px;
-}
-li {
-    margin-bottom: 20px;
-}
-li img {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 15px;
 }
