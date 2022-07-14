@@ -6,7 +6,7 @@
 }
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: #bfbfc8 url(https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60) center center/cover no-repeat padding-box;
+    /* background: #bfbfc8 url(https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60) center center/cover no-repeat padding-box; */
     /* font-size: clamp(12px, 16px, 20px); */
     /* font-size: 1rem; */
 }
@@ -122,9 +122,14 @@ input[type="search"] {
     border-style: none;
 }
 .controls button {
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 10px;
     padding: 5px;
+    border-style: solid;
+    background-color: #0677FF;
+    color: #ffffff;
+    outline: none;
+
 }
 .narrow-grid {
     grid-template-columns: 50px 50px auto;;
