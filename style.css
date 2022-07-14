@@ -67,7 +67,22 @@ li img {
     height: 22px;
     vertical-align: middle;
 }
+.controls > div {
+    display: grid;
+    padding: 15px;
+    align-content: center;
+}
+.controls_input,
+.controls_user {
+    grid-template-columns: 1fr 6fr;
+}
+.controls_options {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.controls p {
+    margin: 0;
+}
 
 /* || Style to clearly see element, do not forget to remove later */
 .main > :nth-child(1) {
