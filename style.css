@@ -115,7 +115,7 @@ input[type="search"] {
 
 
 /* || Style to clearly see element, do not forget to remove later */
-.main > :nth-child(1) {
+/* .main > :nth-child(1) {
     background-color: blue;
 }
 .main > :nth-child(2) {
@@ -130,4 +130,4 @@ input[type="search"] {
 }
 .main {
     background-color: rgb(81, 123, 160);
-}
+} */
