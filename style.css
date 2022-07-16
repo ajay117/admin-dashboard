@@ -124,6 +124,9 @@ img.close-btn {
     -webkit-box-shadow: -5px 8px 20px -1px rgba(23,21,24,0.61); 
     box-shadow: -5px 8px 20px -1px rgba(23,21,24,0.61);
 }
+.normal-width {
+    max-width: 100%;
+}
 
 /* || Header section */
 .logo {
@@ -160,8 +163,8 @@ input[type="search"] {
     margin-left: 10px;
     padding: 5px;
     border-style: solid;
-    background-color: #0677FF;
-    color: #ffffff;
+    /* background-color: #0677FF; */
+    /* color: #ffffff; */
     outline: none;
 
 }
@@ -173,6 +176,9 @@ input[type="search"] {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+button:active {
+    font-size: 12px;
 }
 
 /* || Media Query */
