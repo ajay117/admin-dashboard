@@ -190,7 +190,7 @@ button:active {
         padding-right: 15px;
         height: 100%;
         left: -1000px;
-        background-color: pink;
+        background-color: #ffffff;
     }
     .container {
         grid-template-columns: 1fr;
@@ -203,6 +203,7 @@ button:active {
     }
     input[type="search"] {
         height: 22px;
+        padding: 5px;
     }
     .show {
         display: block;
