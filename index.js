@@ -1,10 +1,10 @@
 let sidebar = document.querySelector('.sidebar');
 let logo =  document.querySelector('.logo');
 let closeBtn = document.querySelector('.close-btn');
+let fullPage = document.querySelector('html');
 
 logo.addEventListener('click', () => {
-    let html = document.querySelector('html');
-    sidebar.style.height = html.offsetHeight; 
+    sidebar.style.height = fullPage.offsetHeight + 'px'; 
     sidebar.classList.toggle('show');
     sidebar.style.left = '0px';
 
